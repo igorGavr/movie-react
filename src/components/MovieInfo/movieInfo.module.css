@@ -1,0 +1,37 @@
+.movieInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fdfdfd;
+    height: 750px;
+
+}
+.poster>img {
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 500px;
+    height: 500px;
+}
+.wraper{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.wraper h1,h2{
+    display: flex;
+    justify-content: flex-start;
+}
+h2{line-height: normal;
+    font-weight: normal;
+}
+h1{
+    color: blue;
+}
+
+.color{
+    color: #ffaa00;
+
+    font-weight: bolder;
+}
