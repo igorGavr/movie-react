@@ -10,8 +10,8 @@ const Header = () => {
     return (
         <div className={css.header}>
             <div className={css.nav}>
-                <NavLink to={'/movies'} className={css.link_movies}>Movies</NavLink>
-
+                <NavLink to={'/movies'} >Movies</NavLink>
+                <NavLink to={'genres'}>Genres</NavLink>
             </div>
 
             {!curentMovies && <h1>The world of movies</h1>}

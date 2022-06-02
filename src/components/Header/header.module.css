@@ -1,24 +1,9 @@
+
 .header{
-    height: 40px;
-    background-color: #252525;
-    color: white;
+    background-color: #beefbe;
+}
+.nav{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
-.nav a{
-
-    text-decoration: none;
-    color: snow;
-    font-size: 20px;
-}
-.nav a[class='active']{
-    color: red;
-}
-.link_movies{
-    position: absolute;
-    top: 10px;
-    left: 20px;
+    justify-content: space-evenly;
+    font-size: 24px;
 }

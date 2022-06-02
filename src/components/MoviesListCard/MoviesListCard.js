@@ -28,15 +28,15 @@ const MoviesListCard = () => {
     }
     return (
         <div>
-            <div className={css.buttons}>
-                <button onClick={toPrev}>prev</button>
-                <button onClick={toNext}>next</button>
-            </div>
+
             <div className={css.movies}>
                 {movies && movies.map(movie =>
                     <MoviesCard key={movie.id} movie={movie}/>)}
             </div>
-
+            <div className={css.buttons}>
+                <button onClick={toPrev}>prev</button>
+                <button onClick={toNext}>next</button>
+            </div>
         </div>
     );
 };
