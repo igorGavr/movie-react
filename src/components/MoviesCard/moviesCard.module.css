@@ -5,14 +5,14 @@
     align-items: center;
     flex-direction: column;
     width: 286px;
-    height: 350px;
+    height: 400px;
 
 }
 .movieOne img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
-    height: 84%;
+    height: 75%;
 }
 .wrap{
     height: 100%;
@@ -33,8 +33,9 @@ h3{margin: 0;
 .movieOne:hover{
     cursor: pointer;
     width: 288px;
-    height: 353px;
-    background-color: #187dbb;
-    color: red;
-    transition:  0.2s
+    height: 410px;
+    background-color: #c1ecb5;
+    color: #5b4242;
+    transition: all 0.5s ease;
+    box-shadow: #ffaa00;
 }

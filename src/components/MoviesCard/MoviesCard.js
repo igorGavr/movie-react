@@ -22,7 +22,7 @@ const MoviesCard = ({movie}) => {
             <img src={link} alt={title}/>
             <div className={css.wrap}>
                 <h3>{title}</h3>
-                <h3>Rating Comp - {vote_average}</h3>
+                <h3>Rating - {vote_average}</h3>
             </div>
         </div>
     );
