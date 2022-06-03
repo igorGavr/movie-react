@@ -7,9 +7,11 @@ import {moviesActions} from "../../redux";
 import {MoviesCard} from "../MoviesCard/MoviesCard";
 
 const MoviesListCard = () => {
-    const dispatch = useDispatch();
     const {movies} = useSelector(state => state.movies);
-    const [query, setQuery] = useSearchParams({page: '1'});
+    const [query, setQuery] = useSearchParams({page: '1', with_genres: ''});
+    const dispatch = useDispatch();
+    const page = query.get('page');
+    const with_genres = query.get('with_genres');
 
     useEffect(()=>{
         dispatch(moviesActions.getAll({page: query.get('page')}))
