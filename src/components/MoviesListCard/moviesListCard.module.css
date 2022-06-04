@@ -7,5 +7,10 @@
 }
 .buttons{
     display: flex;
+    justify-content: center;
 
+}
+.buttons button{
+    padding: 12px;
+    margin: 15px;
 }
